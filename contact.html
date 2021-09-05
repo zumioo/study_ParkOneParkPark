@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <title>CONTACT〜パークワンパークパーク〜</title>
-<link rel="stylesheet" href="#">
+<link rel="stylesheet" href="css/style.css">
 </head>   
 <body>
 <header id="top">
@@ -21,10 +21,42 @@
 </nav>
 <div id="contents">
     <div id="main">
-
+        <article>
+            <p>Liveのお取り置き連絡はこちらのフォームからお願いします。</p>
+            <ul>
+                <li>必要事項を記入し、「確認」ボタンをクリックしてください。</li>
+                <li>ご登録いただいた個人情報は、お取り置きの確認以外には使用致しません。</li>
+            </ul>
+            <form action="#">
+                <p><label>お名前(必須)<br>
+                    <input type="text" name="name" required></label></p>
+                <p><label>メールアドレス(必須)<br>
+                    <input type="email" name="mail" required></label></p>
+                <p>LIVE日時<br>
+                    <select>
+                        <option>2021/10/01:下北沢SHH</option>
+                        <option>2021/10/05:高円寺FFOOK</option>
+                        <option>2021/10/19:新代田FFEEE</option></select></p>
+                <p>予約枚数<br>
+                    <label><input type="radio" name="num" value="1">1</label>
+                    <label><input type="radio" name="num" value="2">2</label>
+                    <label><input type="radio" name="num" value="3">3</label>
+                    <label><input type="radio" name="num" value="4">4</label></p>
+                <p><label>その他備考<br>
+                    <textarea name="comment"></textarea></label></p>
+                <p><input type="submit" value="確認"></p>
+            </form>
+        </article>
     </div>
     <div id="sub">
-
+        <div>
+            <a href="../contact.html">
+                <dl>
+                    <dt>お問合せ</dt>
+                    <dd>LIVEの取置きのみ受付いたします。</dd>
+                </dl>
+            </a>
+        </div>
     </div>
 </div>
 <footer>
