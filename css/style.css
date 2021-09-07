@@ -75,3 +75,7 @@ footer {
     clear: both;
     padding-top: 70px;
 }
+
+.inner a p img:hover {
+    opacity: 0.6;
+}
