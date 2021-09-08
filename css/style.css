@@ -79,3 +79,22 @@ footer {
 .inner a p img:hover {
     opacity: 0.6;
 }
+
+#graphic {
+    width: 840px;
+    height: 200px;
+    margin: 0 auto auto auto;
+}
+
+#graphic ul {
+    position: relative;
+    list-style: none;
+    padding-left: 0;
+}
+
+.bio li {
+    list-style: none;
+}
+#bior {
+    text-align: right;
+}
