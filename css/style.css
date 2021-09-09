@@ -98,3 +98,15 @@ footer {
 #bior {
     text-align: right;
 }
+
+.bio li strong{ 
+    padding-right: 170px;
+    border-bottom: solid;
+}
+
+.gallery figure img {
+    width: 200px;
+}
+.gallery figure figcaption {
+    float: right;
+}
