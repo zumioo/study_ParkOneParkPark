@@ -110,3 +110,7 @@ footer {
 .gallery figure figcaption {
     float: right;
 }
+
+h4 {
+    border-bottom: solid;
+}
