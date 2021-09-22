@@ -2,6 +2,7 @@
 
 body {
     background-image: url(../img/Park.jpg);
+    background-attachment: fixed;
     color: rgb(6, 3, 7);
 }
 
